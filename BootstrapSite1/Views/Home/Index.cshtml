@@ -1,0 +1,111 @@
+﻿@{
+                /**/
+
+                ViewBag.Title = "Home";
+}
+
+<style type="text/css">
+
+    .ui-dialog {
+        z-index: 1000 !important;
+    }
+</style>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $("#SampleDiv").dialog({
+            modal: true
+        });
+    });
+           </script>
+<div id="myCarousel" class="carousel slide" style="background-image:url('../Images/dariusz-sankowski-46479-unsplash.jpg');">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        @*<li data-target="#myCarousel" data-slide-to="2"></li>*@
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <div class="fill" style="background-image:url('../Images/Home1.jpg');"></div>
+            <div class="carousel-caption">
+                <h1>Welcome to Mastermind HR Solutions</h1>
+            </div>
+        </div>
+        <div class="item">
+            <div class="fill" style="background-image:url('../Images/close-up-court-courthouse-534204.jpg');"></div>
+            <div class="carousel-caption">
+                <h1>Labour Laws Compliance</h1>
+            </div>
+        </div>
+        @*<div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+                <div class="carousel-caption">
+                    <h1>
+                        Additional Layout Options at <a href="http://startbootstrap.com">http://startbootstrap.com</a>
+                    </h1>
+                </div>
+            </div>*@
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+    </a>
+</div>
+
+<div class="section">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <h3 class="text-center"> MASTERMIND HR SOLUTIONS</h3>
+                <p class="text-center">
+                    Your Best Partner to provide quality solutions for the problems related to HR functions and Labour Laws Compliance
+                </p>
+                <p class="text-center">
+                    We thrive to provide the best quality of education in the field of HR and labour Law. Our qualified,
+                    experienced &amp; senior HR &amp; Labour Laws professionals, practicing labour laws advocates &amp; trainers have a experience
+                    of over a decade. The faculty believes in sharing their experience in form of knowledge to back the theory imparted
+                    in the human brain. The concept of relativity to the theory makes one of the prime choice to train Corporate
+                    employee.
+                </p>
+                <p class="text-center" style="font-weight:700;color:crimson;font-size:18px">
+                    Our Mission.. SAY YES TO LABOUR LAWS !!!!!
+                </p>
+                <p class="text-center" style="font:bolder;color:crimson;font-size:18px">
+                    For free Labour Laws gap anlysis report for you company, please fill below sheet and mail to <span style="font-weight:700;color:crimson;font-size:18px">"compliance@mastermindhrsolutions.com" </span>
+                </p>
+                <a href="~/Content/COMPLIANCE_SHEET_FOR_TRAINING.xlsx">Click Here To Download</a>
+
+       
+            </div>
+            @*<div class="col-lg-4 col-md-4">
+                    <h3><i class="fa fa-pencil"></i> Ready to Style &amp; Edit</h3>
+                    <p>You're ready to go with this pre-built page structure, now all you need to do is add your own custom stylings! You can see some free themes over at <a href="http://bootswatch.com">Bootswatch</a>, or come up with your own using <a href="http://getbootstrap.com/customize/">the Bootstrap customizer</a>!</p>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h3><i class="fa fa-folder-open"></i> Many Page Options</h3>
+                    <p>This template features many common pages that you might see on a business website. Pages include: about, contact, portfolio variations, blog, pricing, FAQ, 404, services, and general multi-purpose pages.</p>
+                </div>*@
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+   
+        <div class="col-md-6 col-md-offset-3">
+            <div id="SampleDiv" title="Subscribe">
+                @Html.Partial("Modal")
+            </div>
+        </div>
+   
+
+</div>

@@ -1,0 +1,74 @@
+﻿/*body {
+    background-color: #2290DC;
+    /*background-image: url('../Content/images/communication-contact-conversation-33999.jpg');*/
+}*/
+
+.contact {
+    padding: 4%;
+    height: 400px;
+}
+
+.col-md-3 {
+    background: #ff9b00;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.contact-info {
+    margin-top: 10%;
+}
+
+    .contact-info img {
+        margin-bottom: 15%;
+    }
+
+    .contact-info h2 {
+        margin-bottom: 10%;
+    }
+
+.col-md-9 {
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.contact-form label {
+    font-weight: 600;
+    margin:3px;
+}
+
+.contact-form button {
+    background: #25274d;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+
+.contact-form button:focus {
+    box-shadow: none;
+}
+
+/*.form-control contactForm {
+    margin: 3px;
+}*/
+
+input, .form-control {
+    padding: 7px;
+    font-size: 12px;
+    margin: 3px;
+    width:200px
+}
+
+/*.col-md-3-contactdiv {
+    padding-bottom: 235px;
+}*/
+
+.col-md-3 contactdiv {
+    background: #ff9b00;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    padding-bottom: 235px;
+}
